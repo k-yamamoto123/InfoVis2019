@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>W01 task2</title>
+    </head>
+    <body>
+        <script src="vec3.js"></script>
+        <script>document.write("x=");</script>
+        <input type="number"name="x"value="0"style="width:50px;"onChange="areaCalc()">
+        <script>document.write("y=");</script>
+        <input type="number"name="y"value="0"style="width:50px;"onChange="areaCalc()">
+        <script>document.write("z=");</script>
+        <input type="number"name="z"value="0"style="width:50px;"onChange="areaCalc()">
+        input.on('input', function(event){
+            var v = new Vec3(x.value(),y.value(),z.value());
+            <script>document.write(v.sum());</script>
+        }
+
+    </body>
+    
+</html>

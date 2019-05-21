@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>W02: task1</title>
+    </head>
+    <body>
+        <script src="vec3.js"></script>
+        <script>
+            document.write(v)
+        </script>
+    </body>
+</html>
